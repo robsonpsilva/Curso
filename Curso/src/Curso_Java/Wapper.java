@@ -14,6 +14,14 @@ public class Wapper {
 		System.out.println(b.byteValue());
 		System.out.println(s.toString());
 		System.out.println(i*3);
+		System.out.println(l/3);
+		Boolean bo = Boolean.parseBoolean("true");
+		System.out.println(bo);
+		System.out.println(bo.toString().toUpperCase());
+		Character c = '#';
+		System.out.println(c + "...");
+		Double d = 1234.5678;
+		System.out.println(d);
 		entrada.close();
 	}
 
